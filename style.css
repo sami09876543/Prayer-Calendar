@@ -1,0 +1,324 @@
+body {
+    font-family: sans-serif, serif;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .calendar {
+    margin-top: 2.25rem;
+    border: 1px solid black;
+    padding: 2rem 2.25rem;
+  }
+  
+  .main {
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .first-section {
+    position: relative;
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .top-box {
+    position: absolute;
+    top: 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0px 2rem;
+  }
+  
+  .top-masjid {
+    height: 180px;
+  }
+  
+  .top-logo {
+    position: absolute;
+    width: 25%;
+    top: 4px;
+    margin-right: 5px;
+  }
+  
+  .top-box-cld {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .phone {
+    margin-left: 0.7rem;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.8;
+  }
+  
+  .input-box {
+    text-align: center;
+    margin-left: 1.5rem;
+  }
+  
+  .month-first {
+    font-weight: 600;
+    width: 100px;
+    font-size: 1.25rem;
+    opacity: 0.8;
+    outline: none;
+    outline: none;
+  }
+  
+  .month-first:focus {
+    border: none;
+    outline: none;
+  }
+  
+  .month-second:focus {
+    border: none;
+    outline: none;
+  }
+  
+  .month-second {
+    width: 60px;
+    font-weight: 600;
+    font-size: 1.25rem;
+    opacity: 0.8;
+    outline: none;
+  }
+  
+  .input-box-hijri {
+    font-weight: 500;
+    font-size: 14px;
+    opacity: 0.8;
+    padding-bottom: 20px;
+    background: none;
+  }
+  
+  .islamic-month {
+    width: 250px;
+    text-align: center;
+    outline: none;
+    border: none;
+  }
+  
+  .global {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    height: 50px;
+  }
+  .global-link {
+    margin-left: 0.5rem;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.8;
+  }
+  
+  .section-sec {
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .title-rectangle {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+  .title-rectangle-cld {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0;
+    color: white;
+    opacity: 1;
+  }
+  .title-rectangle-cld-thr {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    border-right: 1px solid rgb(255, 255, 255);
+    font-weight: 500;
+    padding: 0.125rem 0.75rem;
+  }
+  .tow-line-box {
+    position: absolute;
+    top: 0;
+    right: 308px;
+    color: white;
+    opacity: 1;
+  }
+  .date-hijri {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+  }
+  .hijri {
+    padding: 0.25rem 0.75rem;
+    border-right: 1px solid rgb(255, 255, 255);
+  }
+  .fajar-box {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    border-right: 1px solid rgb(255, 255, 255);
+    font-weight: 500;
+    padding: 0.125rem 0.75rem;
+  }
+  .day-date {
+    padding: 0.25rem 0.5rem;
+    border-right: 1px solid rgb(255, 255, 255);
+  }
+  .fajar {
+    font-size: 14px;
+    padding: 7.5px 0px;
+  }
+  .jumaa-start-frt {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+  }
+  .duhar-start {
+    border-left: 1px solid rgb(255, 253, 253);
+    border-right: 1px solid rgb(255, 255, 255);
+    font-size: 13px;
+  }
+  .start-frt {
+    padding: 0.375rem 0.75rem;
+  }
+  .Sunrise {
+    font-size: 14px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding: 0px 1rem;
+  }
+  .Duhar {
+    padding: 0.625rem 0.75rem;
+    border-bottom: 1px solid rgb(255, 255, 255);
+  }
+  .prayers-names {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    border-left: 1px solid rgb(255, 248, 248);
+    border-right: 1px solid rgb(255, 255, 255);
+    font-weight: 500;
+    padding: 0.125rem 0.75rem;
+  }
+  .Maghrib {
+    font-size: 14px;
+    padding: 0px 1rem;
+  }
+  .ishaa-asr-box {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    border-left: 1px solid rgb(255, 255, 255);
+    font-weight: 500;
+    padding: 0.125rem 0.75rem;
+  }
+  .ishaa-asr {
+    font-size: 14px;
+    padding: 7.5px 0px;
+  }
+  .start-jumaa-box {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+  }
+  .start {
+    border-left-width: 0.125rem;
+    border-right-width: 0.125rem;
+    padding: 0.25rem 0.875rem;
+  }
+  .jamaa {
+    padding: 0.25rem 0.5rem;
+    border-right: 1px solid rgb(255, 255, 255);
+  }
+  .bottom-jumua-bar {
+    position: relative;
+    margin-top: 0.25rem;
+    width: 850px;
+  }
+  .jumuah-start-tp {
+    position: absolute;
+    top: 0;
+    color: white;
+  }
+  .jumuah-start {
+    font-size: 15px;
+    margin-left: 8rem;
+    margin-top: 0.75rem;
+    font-weight: 500;
+  }
+  .bottom-container {
+    position: relative;
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+  }
+  
+  .last-two-para {
+    position: absolute;
+    top: 2px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .emty-box-sec {
+    height: 1px;
+    background-color: black;
+    width: 75px;
+    margin-right: 0.5rem;
+    opacity: 0.6;
+  }
+  .improtant {
+    font-size: 14px;
+    font-weight: 600;
+    opacity: 0.7;
+  }
+  .emty-box-frt {
+    height: 1px;
+    background-color: black;
+    width: 75px;
+    margin-left: 0.5rem;
+    opacity: 0.6;
+  }
+  .rulings-para {
+    position: absolute;
+    text-align: center;
+    font-size: 13px;
+    padding: 0px 8px;
+  }
+  .SalafiBookStore {
+    position: absolute;
+    bottom: -8px;
+    left: 3rem;
+    width: 45px;
+  }
+  
+  .bottom-para {
+    position: absolute;
+    bottom: 3px;
+    text-align: center;
+    padding: 0px 130px;
+    font-size: 13px;
+  }
+  .bottom-ASQ {
+    position: absolute;
+    bottom: -8px;
+    right: 3rem;
+    width: 65px;
+  }
+  
+  #btn {
+    display: inline-block;
+    padding: 2px 12px;
+    background-color: #4bbae9;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
